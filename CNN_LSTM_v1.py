@@ -47,9 +47,9 @@ except ImportError as exc:
 
 
 DEFAULT_FILES = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_2974.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_plus_1730.csv",
+    "/data/loto7_4704_k83.csv",
+    "/data/loto7_4704_k83_loto_2974.csv",
+    "/data/loto7_4704_k83_loto_plus_1730.csv",
 )
 
 BALLS = 39
@@ -884,7 +884,7 @@ Kontrola: prethodno izvuceno kolo
 7, 10, 13, 27, 28, 31, 38
 
 NEXT:
-1, 8, 12, 23, 29, 33, 39
+1, x, 12, y, 29, z, 39
 
 Opis izlaza: najduži uzastopni niz=1; 1-19: 3; 20-39: 4; ista kombinacija u istoriji: 0.
 Opis izlaza ne menja izabranu kombinaciju.
@@ -935,7 +935,7 @@ Izvlačenja: 2974 | istorijski prelazi: 2944 | oznaka sadržaja: 992bc400ed1af4f
   Završni model: epoha 80/80 | greška=0.073066
 
 Kontrola: prethodno izvuceno kolo
-9, 14, 17, 19, 24, 28, 35
+9, x, 17, y, 24, z, 35
 
 NEXT:
 1, 8, 13, 21, 29, 33, 39
@@ -992,7 +992,7 @@ Kontrola: prethodno izvuceno kolo
 7, 10, 13, 27, 28, 31, 38
 
 NEXT:
-1, 8, 12, 23, 27, 31, 39
+1, x, 12, y, 27, z, 39
 
 Opis izlaza: najduži uzastopni niz=1; 1–19: 3; 20–39: 4; ista kombinacija u istoriji: 0.
 Opis izlaza ne menja izabranu kombinaciju.
@@ -1000,9 +1000,9 @@ Opis izlaza ne menja izabranu kombinaciju.
 
 ========================================================================
 KONAČNI NEXT REZULTATI
-loto7_4704_k83.csv: (1, 8, 12, 23, 29, 33, 39)
-loto7_4704_k83_loto_2974.csv: (1, 8, 13, 21, 29, 33, 39)
-loto7_4704_k83_loto_plus_1730.csv: (1, 8, 12, 23, 27, 31, 39)
+loto7_4704_k83.csv: (1, x, 12, y, 29, z, 39)
+loto7_4704_k83_loto_2974.csv: (1, x, 13, y, 29, z, 39)
+loto7_4704_k83_loto_plus_1730.csv: (1, x, 12, y, 27, z, 39)
 """
 
 
